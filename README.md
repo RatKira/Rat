@@ -1,3 +1,5 @@
+This is a copy of RileyAbr's post for a discord bot. https://github.com/RileyAbr/rat-facts-Discord-Bot
+
 # 🐀 rat facts
 
 ![Image of rat emoji](https://github.com/RileyAbr/rat-facts-Discord-Bot/blob/master/rat_logo.png)
