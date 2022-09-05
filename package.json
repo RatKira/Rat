@@ -1,0 +1,29 @@
+{
+    "name": "rat-facts",
+    "version": "6.0.0",
+    "description": "A Discord bot that delivers rat content.",
+    "main": "rat.js",
+    "scripts": {
+        "start": "env NODE_ENV=production node ./src/rat.js",
+        "dev": "nodemon ./src/rat.js",
+        "guilds": "node ./src/guilds.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RileyAbr/rat-facts-Discord-Bot.git"
+    },
+    "author": "Riley Abrahamson",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RileyAbr/rat-facts-Discord-Bot/issues"
+    },
+    "homepage": "https://github.com/RileyAbr/rat-facts-Discord-Bot#readme",
+    "dependencies": {
+        "discord.js": "^12.2.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.13"
+    }
+}
