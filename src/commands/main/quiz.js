@@ -10,7 +10,7 @@ function convertReactionToBoolean(reactionEmoji) {
 
 module.exports = {
     name: "quiz",
-    commandUsage: "!rat quiz",
+    commandUsage: "/rat quiz",
     description: "Asks a true/false rat question",
     execute(msg, args) {
         const originalAuthor = msg.author.id;
