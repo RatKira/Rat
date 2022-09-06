@@ -8,7 +8,7 @@ const ratVersion = require("./version");
 
 module.exports = {
     name: "misc",
-    commandUsage: "!rat misc",
+    commandUsage: "/rat misc",
     description: "Lists small, one-off commands",
     execute(msg, args) {
         const miscEmbed = new Discord.MessageEmbed()
