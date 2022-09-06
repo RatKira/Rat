@@ -12,7 +12,7 @@ const ratMisc = require("../misc/misc");
 
 module.exports = {
     name: "help",
-    commandUsage: "!rat help",
+    commandUsage: "/rat help",
     description: "Lists all of the commands available",
     execute(msg, args) {
         const helpEmbed = new Discord.MessageEmbed()
