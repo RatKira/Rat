@@ -4,7 +4,7 @@ const donateLink = "https://ko-fi.com/rileyabrahamson";
 
 module.exports = {
     name: "donate",
-    commandUsage: "!rat donate",
+    commandUsage: "/rat donate",
     description: "Provides ways to donate to `rat facts`",
     execute(msg, args) {
         const donateEmbed = new Discord.MessageEmbed()
