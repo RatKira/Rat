@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 module.exports = {
     name: "author",
-    commandUsage: "!rat author",
+    commandUsage: "/rat author",
     description: "Provides the author and social links for the bot",
     execute(msg, args) {
         const authorEmbed = new Discord.MessageEmbed()
