@@ -14,7 +14,7 @@ const currentPatchNotes = fs
 
 module.exports = {
     name: "patch",
-    commandUsage: "!rat patch",
+    commandUsage: "/rat patch",
     description: "Shows most recent patch notes",
     execute(msg, args) {
         msg.channel.send(patchEmbed);
