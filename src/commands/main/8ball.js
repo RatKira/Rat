@@ -2,7 +2,7 @@ const ratFortunes = require("../../data/fortunes.json");
 
 module.exports = {
     name: "8ball",
-    commandUsage: "!rat 8ball {question}",
+    commandUsage: "/rat 8ball {question}",
     description: "The bot predicts your future",
     execute(msg, args) {
         if (args.length < 1) {
